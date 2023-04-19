@@ -17,12 +17,10 @@ public class Cuenta {
     // retira si la contraseña coincide y hay fondos if (contra.equals(cc))
     public int retira(int q, String cc) {
 
-        if (contra.equals(cc)) {
-            if (saldo >= q) {
+        if (saldo >= q) {
                 return q;
-            } else return -1;
-        } else {
-            return -1;
+            } else {
+            return saldo;
         }
     }
 
