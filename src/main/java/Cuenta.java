@@ -2,7 +2,7 @@ public class Cuenta {
     private int saldo;
     private String contra;
 
-    public Cuenta(int saldoini, String cc) { //constructor
+    public Cuenta(int saldoini, String cc) {     //constructor
         saldo = saldoini;
         contra = cc;
     }
